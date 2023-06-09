@@ -6,7 +6,7 @@ import { getAllPosts } from "../redux/features/post/postSlice";
 
 export const MainPage = () => {
   const dispatch = useDispatch();
-  const { posts, PopularPosts } = useSelector((state) => state.post);
+  const { posts, popularPosts } = useSelector((state) => state.post);
 
   useEffect(() => {
     dispatch(getAllPosts());
@@ -31,9 +31,9 @@ export const MainPage = () => {
         <div className="basis-1/5">
           <div className="text-xs uppercase text-white">Popular</div>
 
-          {PopularPosts?.map((post, index) => (
-            <PopularPosts key={index} post={post} />
-          ))}
+          {popularPosts?.map((post, index) => {
+            return <PopularPosts key={index} post={post} />;
+          })}
         </div>
       </div>
     </div>
