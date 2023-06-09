@@ -10,7 +10,7 @@ export const MainPage = () => {
 
   useEffect(() => {
     dispatch(getAllPosts());
-  }, [dispatch]);
+  }, [dispatch, posts]);
 
   if (!posts.length) {
     return (
