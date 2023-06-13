@@ -16,7 +16,6 @@ export const registerUser = createAsyncThunk(
         username,
         password,
       });
-      console.log(data);
       if (data.token) {
         window.localStorage.setItem("token", data.token);
       }
