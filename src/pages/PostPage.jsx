@@ -155,8 +155,8 @@ export const PostPage = () => {
               Comment
             </button>
           </form>
-          {comments?.map((comment) => (
-            <CommentItem key={comment.id} comment={comment} />
+          {comments?.map((comment, index) => (
+            <CommentItem key={index} comment={comment} />
           ))}
         </div>
       </div>
