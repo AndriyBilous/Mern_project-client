@@ -10,8 +10,6 @@ export const createComment = createAsyncThunk(
   "comment/createComment",
   async ({ postId, comment }) => {
     try {
-      console.log(postId);
-      console.log(`/comments/${postId}`);
       const { data } = await axios.post(`/comments/${postId}`, {
         postId,
         comment,

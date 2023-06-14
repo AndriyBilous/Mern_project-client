@@ -69,7 +69,6 @@ export const PostPage = () => {
   const handleSubmit = () => {
     try {
       const postId = params.id;
-      console.log(postId, comment);
       dispatch(createComment({ postId, comment }));
       setComment("");
     } catch (e) {
@@ -139,22 +138,24 @@ export const PostPage = () => {
           </div>
         </div>
         <div className="w-1/3 p-8 bg-gray-700 flex flex-col gap-2 rounded-sm">
-          <form className="flex gap-2" onSubmit={(e) => e.preventDefault()}>
-            <input
-              type="text"
-              value={comment}
-              onChange={(e) => setComment(e.target.value)}
-              placeholder="Comment"
-              className="text-black w-full rounded-sm bg-gray-400 border p-2 text-xs outline-none placeholder:text-gray-700"
-            />
-            <button
-              type="submit"
-              onClick={handleSubmit}
-              className="flex justify-center items-center bg-gray-600 text-xs text-white rounded-sm py-2 px-4"
-            >
-              Comment
-            </button>
-          </form>
+          {user?._id && (
+            <form className="flex gap-2" onSubmit={(e) => e.preventDefault()}>
+              <input
+                type="text"
+                value={comment}
+                onChange={(e) => setComment(e.target.value)}
+                placeholder="Comment"
+                className="text-black w-full rounded-sm bg-gray-400 border p-2 text-xs outline-none placeholder:text-gray-700"
+              />
+              <button
+                type="submit"
+                onClick={handleSubmit}
+                className="flex justify-center items-center bg-gray-600 text-xs text-white rounded-sm py-2 px-4"
+              >
+                Comment
+              </button>
+            </form>
+          )}
           {comments?.map((comment, index) => (
             <CommentItem key={index} comment={comment} />
           ))}

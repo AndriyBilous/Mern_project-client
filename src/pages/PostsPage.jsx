@@ -18,11 +18,20 @@ export const PostsPage = () => {
     fetchMyPosts();
   }, [fetchMyPosts, posts]);
 
+  if (!posts) {
+    return (
+      <div className="w-1/2 mx-auto py-10 flex flex-col gap-10">
+        There are no posts yet
+      </div>
+    );
+  }
+
   return (
     <div className="w-1/2 mx-auto py-10 flex flex-col gap-10">
-      {posts?.map((post, index) => {
-        return <PostItem post={post} key={index} />;
-      })}
+      {posts.length >= 0 &&
+        posts.map((post, index) => {
+          return <PostItem post={post} key={index} />;
+        })}
     </div>
   );
 };
