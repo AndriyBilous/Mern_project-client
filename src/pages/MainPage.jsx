@@ -10,9 +10,9 @@ export const MainPage = () => {
 
   useEffect(() => {
     dispatch(getAllPosts());
-  }, [dispatch, getAllPosts]);
+  }, [dispatch]);
 
-  if (!posts.length) {
+  if (posts.length === 0) {
     return (
       <div className="text-xl text-center text-white py-10">
         There are no posts yet!
@@ -24,9 +24,8 @@ export const MainPage = () => {
     <div className="max-w-[900px] ms-auto py-10">
       <div className="flex justify-between gap-8">
         <div className="flex flex-col gap-10 basis-4/5">
-          {posts?.map((post, index) => (
-            <PostItem key={index} post={post} />
-          ))}
+          {posts.length > 0 &&
+            posts?.map((post, index) => <PostItem key={index} post={post} />)}
         </div>
         <div className="basis-1/5">
           <div className="text-xs uppercase text-white">Popular</div>

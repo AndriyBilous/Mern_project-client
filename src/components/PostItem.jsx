@@ -17,7 +17,7 @@ export const PostItem = ({ post }) => {
         >
           {post.imgUrl && (
             <img
-              src={`http://localhost:3002/${post.imgUrl}`}
+              src={`https://mern-project-api-dv16.onrender.com/${post.imgUrl}`}
               alt="img"
               className="object-cover w-full"
             />
