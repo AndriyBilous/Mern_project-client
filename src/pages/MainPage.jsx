@@ -22,17 +22,19 @@ export const MainPage = () => {
 
   return (
     <div className="max-w-[900px] py-10" style={{ margin: "0 auto" }}>
-      <div className="flex justify-between gap-8">
-        <div className="flex flex-col gap-10 basis-4/5">
-          {posts.length > 0 &&
-            posts?.map((post, index) => <PostItem key={index} post={post} />)}
-        </div>
-        <div className="basis-1/5">
-          <div className="text-xs uppercase text-white">Popular</div>
+      <div className="max-w-[900px] py-10 mx-auto">
+        <div className="flex justify-between gap-8">
+          <div className="flex flex-col gap-10 basis-4/5">
+            {posts.length > 0 &&
+              posts?.map((post, index) => <PostItem key={index} post={post} />)}
+          </div>
+          <div className="basis-1/5">
+            <div className="text-xs uppercase text-white">Popular</div>
 
-          {popularPosts?.map((post, index) => {
-            return <PopularPosts key={index} post={post} />;
-          })}
+            {popularPosts?.map((post, index) => {
+              return <PopularPosts key={index} post={post} />;
+            })}
+          </div>
         </div>
       </div>
     </div>
