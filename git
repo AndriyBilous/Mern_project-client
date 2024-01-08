@@ -1,0 +1,180 @@
+[33mcommit 55393dae2c80ca494305b50752239aa2bb6d98e6[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: AndriyBilous <andriy.bilous.92@gmail.com>
+Date:   Mon Jan 8 14:23:49 2024 +0200
+
+    bug fixes
+
+[33mcommit 1c9b5e3e5ceb90d6a92d995971d67c5c8fa657fb[m
+Author: AndriyBilous <andriy.bilous.92@gmail.com>
+Date:   Mon Jan 8 14:22:10 2024 +0200
+
+    bug fixes
+
+[33mcommit 907650bab26d86623fc2365b222e1694f44a9b80[m
+Author: AndriyBilous <andriy.bilous.92@gmail.com>
+Date:   Mon Jan 8 13:54:58 2024 +0200
+
+    bug fixes
+
+[33mcommit 2dfbc068794a8a515275435633d5a6e7fa6d41bc[m
+Author: AndriyBilous <andriy.bilous.92@gmail.com>
+Date:   Mon Jan 8 13:49:29 2024 +0200
+
+    Bug fixes
+
+[33mcommit 3bb64cc325e4c16e4e8917d1e00ee94f7a31d2d1[m
+Author: AndriyBilous <andriy.bilous.92@gmail.com>
+Date:   Mon Jan 8 13:43:31 2024 +0200
+
+    Used npm i
+
+[33mcommit 3c3c9b967dea8fd633522ebeab2f0dfeefc3a787[m
+Author: AndriyBilous <andriy.bilous.92@gmail.com>
+Date:   Mon Jan 8 13:34:59 2024 +0200
+
+    Added devDependency gh-pages
+
+[33mcommit 44890342c1b91901f9204258e3418381ce876d83[m
+Author: AndriyBilous <andriy.bilous.92@gmail.com>
+Date:   Mon Jan 8 13:29:13 2024 +0200
+
+    Changed build runs-on on workflow
+
+[33mcommit 9e4ba50d864c4445e25d9112bda82d7c88dd86d1[m
+Author: AndriyBilous <andriy.bilous.92@gmail.com>
+Date:   Mon Jan 8 13:24:51 2024 +0200
+
+    Added node version on workflow
+
+[33mcommit 2e6403e86e9be894feaed1eebeadfeb493560870[m
+Author: AndriyBilous <andriy.bilous.92@gmail.com>
+Date:   Mon Jan 8 13:22:20 2024 +0200
+
+    Added build
+
+[33mcommit 8319b6d7285dec59c32fb6aa6a417cd7629e4bcc[m
+Merge: 90358b4 3c1e2af
+Author: AndriyBilous <andriy.bilous.92@gmail.com>
+Date:   Sat Jan 6 13:46:20 2024 +0200
+
+    Bug fixes
+
+[33mcommit 90358b4704d05c5b232ff731cb2a136d6c699fd2[m
+Author: AndriyBilous <andriy.bilous.92@gmail.com>
+Date:   Sat Jan 6 13:42:40 2024 +0200
+
+    Bug fixes
+
+[33mcommit 3c1e2af09b52c8ad5569a1fdf1f9dec89212010e[m
+Author: Andriy <andriy.bilous.92@gmail.com>
+Date:   Thu Jan 4 16:40:51 2024 +0200
+
+    Update MainPage bug
+
+[33mcommit d04e893d87e60411855acb383f57095a9a0e19c1[m
+Author: AndriyBilous <andriy.bilous.92@gmail.com>
+Date:   Thu Jan 4 13:43:44 2024 +0200
+
+    Changed margin for MainPage
+
+[33mcommit 129e435c32ba2b5425e3cabc727a08f0dcbec89e[m
+Author: AndriyBilous <andriy.bilous.92@gmail.com>
+Date:   Thu Jan 4 12:55:47 2024 +0200
+
+    Added workfow
+
+[33mcommit 6de71d187a3db1f60314483b7a7e07f635bcb7dd[m
+Author: AndriyBilous <andriy.bilous.92@gmail.com>
+Date:   Thu Jan 4 12:51:00 2024 +0200
+
+    Bug fixes
+
+[33mcommit d79effed150147e0fdc14a04273f58691a61d3ae[m
+Author: AndriyBilous <andriy.bilous.92@gmail.com>
+Date:   Thu Jan 4 12:47:18 2024 +0200
+
+    Bug fixes
+
+[33mcommit a3c654efa074698f061610a1f484a4d1fd26e4c5[m
+Author: AndriyBilous <andriy.bilous.92@gmail.com>
+Date:   Thu Jan 4 12:41:57 2024 +0200
+
+    Added fixes to package.json for deploy
+
+[33mcommit 330484e2ef704528fddbe54e653bbc0b0c567279[m
+Author: AndriyBilous <andriy.bilous.92@gmail.com>
+Date:   Thu Jun 15 14:00:46 2023 +0300
+
+    Added build to client
+
+[33mcommit b3449134f5f38efbe19cb59c06725164d45074d8[m
+Author: AndriyBilous <andriy.bilous.92@gmail.com>
+Date:   Thu Jun 15 13:48:24 2023 +0300
+
+    Changed path to pictures and base url in axios
+
+[33mcommit 7cc69175f9e827287d79fe3902f1b1fceb0d3461[m
+Author: AndriyBilous <andriy.bilous.92@gmail.com>
+Date:   Wed Jun 14 14:45:59 2023 +0300
+
+    Made some changes for dependencies in useEffect for MainPage and PostsPage
+
+[33mcommit 33610d532352f007b06c07612bc22adaa94a166b[m
+Author: AndriyBilous <andriy.bilous.92@gmail.com>
+Date:   Wed Jun 14 12:59:53 2023 +0300
+
+    Added comment form visibility only for logged in and removed few console.log
+
+[33mcommit 8ea6a7788f55cb78c355be9e1ff1200107271f1c[m
+Author: AndriyBilous <andriy.bilous.92@gmail.com>
+Date:   Wed Jun 14 12:31:08 2023 +0300
+
+    Changed key to index for comments in PostPage
+
+[33mcommit af9c9040f4473084d7ad5b406403973396fff10c[m
+Author: AndriyBilous <andriy.bilous.92@gmail.com>
+Date:   Tue Jun 13 15:24:06 2023 +0300
+
+    Added comments for posts
+
+[33mcommit b56723d25571bde0de6f4fc681b6ef403dad1c94[m
+Author: AndriyBilous <andriy.bilous.92@gmail.com>
+Date:   Fri Jun 9 14:53:23 2023 +0300
+
+    Added posts editing and edit popular posts
+
+[33mcommit 92888cb47d180e2419c390014874f43a08a14083[m
+Author: AndriyBilous <andriy.bilous.92@gmail.com>
+Date:   Fri Jun 9 13:33:23 2023 +0300
+
+    Added deleting post functionality
+
+[33mcommit 5eacdf4813a8b649e4d3f3c622d8e484e4f6ce7b[m
+Author: AndriyBilous <andriy.bilous.92@gmail.com>
+Date:   Thu Jun 8 14:19:43 2023 +0300
+
+    Аdded post overview and counter for this functionality
+
+[33mcommit 79e1c7c752474750f7ddc87a767e750ffdbd104b[m
+Author: AndriyBilous <andriy.bilous.92@gmail.com>
+Date:   Wed Jun 7 12:22:27 2023 +0300
+
+    Аdded posts creation and receiving
+
+[33mcommit 6453a06e049939690bb5f831f35b9c1c07e67af2[m
+Author: AndriyBilous <andriy.bilous.92@gmail.com>
+Date:   Thu Jun 1 16:09:22 2023 +0300
+
+    Added registration and authorisation with navigation on main page, and message handlers
+
+[33mcommit ab6a9cc10e17d6368bd7adbf596ffa0aab12b5cc[m
+Author: AndriyBilous <andriy.bilous.92@gmail.com>
+Date:   Tue May 30 13:28:54 2023 +0300
+
+    Client first commit
+
+[33mcommit 2ba9c02c29404994726ecd7f6d0707567f08578d[m
+Author: AndriyBilous <andriy.bilous.92@gmail.com>
+Date:   Fri May 26 12:23:41 2023 +0300
+
+    Initialize project using Create React App
